@@ -1,0 +1,12 @@
+*{outline: 1px solid rgba(255,0,0,0.3);}
+body{background-image: url('../img/fondo2.jpg'); background-attachment: fixed;}
+
+
+.cuerpo{ margin-top: 80px; margin-bottom: 80px; }
+
+
+.s_historia {background-color: #fff; margin: 0px;}
+.s_historia > div:first-child{padding: 0px 20px 0px 20px;}
+.s_historia h1 {margin-top: 40px;}
+.s_historia p{max-width: 380px; margin:auto; text-align: justify; margin-bottom: 40px;}
+.s_historia button{margin-bottom: 40px; padding: 7px 40px 7px 40px; background:transparent; vertical-align: middle; }
