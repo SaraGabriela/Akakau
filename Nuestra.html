@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Descubre nuestra historia</title>
+	<link rel="stylesheet" href="tinycircleslider.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="nuestra.css">
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="jquery.tinycircleslider.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#rotatescroll').tinycircleslider({ interval: true, dotsSnap: true, dotsHide: false });
+		});
+	</script>
+</head>
+<body>
+	<div id="rotatescroll">
+		<div class="viewport">
+			<ul class="overview">
+				<li><a href="http://www.baijs.com"><img src="images/inicio.jpg" /></a></li>
+				<li><a href="http://www.baijs.com"><img src="images/one.jpg" /></a></li>
+				<li><a href="http://www.baijs.com"><img src="images/two.png" /></a></li>
+				<li><a href="http://www.baijs.com"><img src="images/three.jpg" /></a></li>
+				<li><a href="http://www.baijs.com"><img src="images/four.png" /></a></li>
+				<li><a href="http://www.baijs.com"><img src="images/five.jpg" /></a></li>
+			</ul>
+		</div>
+
+		<div class="dot"></div>
+		<div class="overlay"></div>
+		<div class="thumb"></div>
+	</div>
+	<div class="footer">
+		<img src="images/logo.png"/>
+		<ul class="pie">
+			<li>
+				<h4>Dirección:</h4>
+				<p>Av. Siglo XX 148 - A, Cercado </br> Arequipa, Peru</p>
+			</li>
+			<li>
+				<h4>Horario:</h4>
+				<p>Lun-Vie:</br> 5:00pm - 7:00pm</p>
+			</li>
+			<li>
+				<h4>Escríbenos:</h4>
+				<p>987 741 667</br>conrado.aguilarpantigozo@gmail.com</p>
+			</li>
+			<li>
+				<h4>Síguenos</h4>
+				<a href="https://www.facebook.com/Akakau-149378065212695/timeline"><img src="icons/face.png"></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
