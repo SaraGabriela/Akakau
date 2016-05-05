@@ -7,6 +7,12 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/menu.css">    
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
     </head>
     <body class="home">    	 
     <div class="color-fondo">
@@ -135,24 +141,78 @@
 				</div>
 			</div>    <!--TERMINA MENU -->
 
-			<div class="cuerpo">
-            <section class="row s_historia">
+			<div class="cuerpo">  <!--Empieza cuerpo de pag-->
+            <section class="row s_historia"> <!--Empieza nosotros-->
             	<div class="col-md-6 text-center">
             		<h1>Sobre nosotros</h1>
             		<p>Somos una empresa familiar que se dedica a la producción y exportación 
 de cacao orgánico y derivados. Somos amigables con el medio ambiente, practicando de manera eficaz la responsabilidad social y el comercio justo con nuestros coloboradores, dentro del ámbito local y nacional. Contamos con zonas de conservación de bosques en pie y la biodiversidad de su fauna y su especie. Apoyamos a municipalidades, asociaciones, voluntarios Homa y poblados 
 dentro de Pucallpa, Puno y Arequipa.</p>
-                    <button><div>Conócenos</div></button>
+                    <a href="https://www.google.com.pe/"><button>Conócenos</button></a>
             	</div>
-            	<div class="col-md-6">fgh</div>
-            </section>
-            </div>
+            	<div class="col-md-6"></div>
+            </section> <!--Termina nosotros-->
+            <section class="row s_slide"> <!--Comienza slide-->
+            <ul id="slider1">
+            	<li ><div>
+            	<h1>¿Con antojos de </br>chocolate?</h1>
+            	<a href="https://www.google.com.pe/"><button>¡Mira nuestro </br>menú!</button></a></div>
+            	</li>
+            	<li >
+            		<div><h1>Delicias veganas</h1>
+            		<a href="https://www.google.com.pe/"><button>¡Encuéntralas </br>aquí!</button></a></div>
+            	</li>
+            </ul>
+            	<script type="text/javascript">
+            		$('#slider1').bxSlider({
+                       mode: 'fade',
+                        auto: true,
+                        autoControls: true,
+                        pause: 10000
+});
+            	</script>
+            </section>   <!--Termina slide-->
+            <section class="s_frase text-center"> <!--Comienza frase-->
+            	<h1><em>"El amor sabe a chocolate"</em></h1>
+            </section>  <!--Termina frase-->
+            <section class="row s_eventos"> <!--Comienza eventos-->
+            	<div class="col-md-6"></div>
+            	<div class="col-md-6 text-center">
+            		<h1>Experiencias Akakau</h1>
+            		<p>Akakau tiene para ti una semana llena de chocolates y entretenimiento. </p>
+                    <a href="https://www.google.com.pe/"><button>Quiero participar!</button></a>
+            	</div>
+            </section> <!--Termina eventos-->
+
+            <!--
+            <section class="row s_personas text-center"> --><!--Empieza Galería--><!--
+            	<h1>Repartiendo amor en forma de chocolate</h1>
+            	<ul id="slider2">
+            		<li><img src="img/personas/persona2.jpg"></li>
+            		<li><img src="img/personas/persona3.jpg"></li>
+            		<li><img src="img/personas/persona4.jpg"></li>
+            		<li><img src="img/personas/persona5.jpg"></li>
+            		<li><img src="img/personas/persona6.jpg"></li>
+            		<li><img src="img/personas/persona7.jpg"></li>
+            		<li><img src="img/personas/persona8.jpg"></li>
+            	</ul>
+            	<script type="text/javascript">
+            		$('#slider2').bxSlider({
+  auto: true,
+  autoControls: true,
+  pause: 3000,
+  slideMargin: 20
+});
+            	</script>
+            </section>--> <!--Termina Galería-->
+
+            </div>  <!--Termina cuerpo de pag-->
     	
 
     	</div>                          
     	<div class="background"></div>  
 </div>
-
+        
        	<script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>        
         <script src="js/jquery.easing.1.3.js"></script>
