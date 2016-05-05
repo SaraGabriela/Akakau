@@ -1,11 +1,16 @@
 /**{
     outline: 1px solid rgba(255,0,0,0.4);
 }*/
+@font-face{
+	font-family: Frabk;
+	src: url(../fonts/FRABK.ttf);
+}
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%
 }
+
 .nace{
 	text-align: center;
 	padding: 40px 190px;
