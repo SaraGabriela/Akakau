@@ -1,10 +1,60 @@
-*/*{
+/**{
     outline: 1px solid rgba(255,0,0,0.4);
 }*/
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%
+}
+.nace{
+	text-align: center;
+	padding: 40px 190px;
+	font-size: 18px;
+}
+.dioses{
+	display: block;
+}
+.dio{
+	background: url("images/love.jpg") bottom;
+	background-size: cover;
+	background-position:0 -100px ;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	height: 400px;
+}
+.ses p{
+	padding: 30px;
+}
+.ses h2{
+	padding: 30px 30px 0;
+}
+.ses{
+	background: #C4BA9E;
+	width: 50%;
+	text-align: center;
+	float: right;
+	height: 400px;
+}
+.frase{
+	text-align: center;
+	font-size: 20px;
+	background:#3B2B16;
+	color:#C4BA9E;
+	clear: both;
+	padding: 30px;
+	position: relative;
+}
+.parte{
+	display: block;
+	text-align: center;
+}
+.Production{
+	position: relative;
+	left: 190px;
+	top: 130px;
+	width: 30%;
+	color:#3B2B16;
 }
 .footer{
 	background: url("images/chocolatoso.jpg");

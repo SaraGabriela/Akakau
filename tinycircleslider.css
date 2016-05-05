@@ -5,13 +5,14 @@ img { border: 0; }
 	height:300px; 
 	position:relative;
 	width:300px;
-	left: 520px; 
-	margin-bottom: 50px;
+	left: 800px;
+    bottom: 150px; 
 }
 #rotatescroll .viewport{ 
 	height:300px;
 	position: relative;
 	margin:0 auto; 
+    /*top: -413px;*/
 	overflow:hidden; 
 	width:300px; 
 	pointer-events: none }
@@ -29,8 +30,7 @@ img { border: 0; }
     float: left;
     position: relative; }
 #rotatescroll .overlay {
-	background:url(images/bg-rotatescroll.png) 
-	no-repeat 0 0; 
+	background:url(images/bg-rotatescroll.png) no-repeat 0 0; 
 	pointer-events: none;
 	position: absolute;
 	left: 0;
@@ -38,8 +38,7 @@ img { border: 0; }
 	height:300px;
 	width:300px; }
 #rotatescroll .thumb {
-    background:url(images/bg-thumb.png)
-    no-repeat 50% 50%;
+    background:url(images/bg-thumb.png)  no-repeat 50% 50%;
     touch-action: none;
     -ms-touch-action: none;
     position: absolute;
