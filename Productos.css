@@ -2,9 +2,16 @@
 position: relative;
 width: 300px;
 height: 250px;
-margin: 10px 10px 50px;
+margin: 10px 25px 50px;
 display: inline-block;
 vertical-align: top;
+text-align: left;
+}
+.caja2:hover{
+	transform: scale(1.2);
+}
+.carta{
+	text-align: center;
 }
 .caja2 img {
 position: relative;
