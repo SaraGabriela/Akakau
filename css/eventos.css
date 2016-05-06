@@ -1,0 +1,54 @@
+/**{outline: 1px solid rgba(255,0,0,0.3);}*/
+body{background-image: url('../img/galeria.jpg'); background-size: cover; background-attachment: fixed;}
+.contiene ul{list-style: none; text-align: center; max-width: 860px; margin: auto; margin-top: 40px;}
+ section h1, p{text-align: center;}
+
+section:first-child{background-color: #C3B49B; max-width: 860px; margin: auto; margin-top: 30px;}
+
+section h1{padding-top: 50px;}
+.contiene ul li{display: inline-block;   margin-left: 40px; margin-right:40px; margin-bottom: 30px;background-color: #C3B49B; padding: 7px 10px 13px 10px;}
+.contiene ul li div{width: 134px; height: 165px; background-size: cover;}
+.contiene ul li h3{padding-top: 15px; margin-bottom: 10px;}
+.contiene ul li:first-child div{background-image: url('../img/vinilo1.jpg');}
+.contiene ul li:nth-child(2) div{background-image: url('../img/astrologia2.jpg');}
+.contiene ul li:nth-child(3) div{background-image: url('../img/yoga.png'); background-position: -120px;}
+.contiene ul li:nth-child(4) div{background-image: url('../img/peli.jpg');}
+.contiene ul li:nth-child(5) div{background-image: url('../img/concierto.jpg');background-position: -100px;}
+.contiene ul li:nth-child(6) div{background-image: url('../img/tango.jpg');background-position: 0px -15px;}
+
+ .footer{
+	background: url("../images/chocolatoso.jpg");
+	padding: 20px;
+	text-align: center;
+	color:#C4BA9E;
+
+}
+.footer img{
+	float: left;
+	max-width: 10%;
+    margin:15px 0 0 90px;
+}
+.pie{
+	padding: 0 60px;
+	text-align: center;
+	margin: 20px;
+}
+.pie p:nth-child(2), .pie p:first-child, .pie li:last-child{
+    padding: 0 30px;
+}
+.pie li{
+	display: inline-block;
+	border-right: 2px solid #C4BA9E;
+	padding: 5px;
+	margin: 0px;
+	vertical-align: top;
+	max-width: 80%;
+}
+.pie li:last-child{
+	border-right: none;
+}
+.pie a img{
+	display: block;
+	max-width: 100%;
+	margin-left: 15px;
+}
