@@ -10,14 +10,22 @@ body{
 	padding: 0;
 	width: 100%
 }
-header {min-height: 700px;}
-.rdm-menu span, .rdm-menu strong{font-size: 16px;}
+
+a{text-decoration: none !important;}
+.back{width: 75px; height: 75px; transform: rotate(45deg); background-color: rgba(0,0,0,0.5); color: #fff; margin: auto;}
+.back h4{transform: rotate(-45deg); color: #fff; padding-top: 15px; padding-right: 25px;}
+a .back:hover{background-color: #000; text-decoration: none !important;}
 .nace{
 	text-align: center;
 	padding: 40px 190px;
 	font-size: 18px;
 }
+.nace p{border: 5px solid #C3B49B;
+	outline: 3px solid #3B2B16;
+	padding: 10px;
+}
  em{color: #C3B49B;}
+
 
 .dioses{
 	display: block;
